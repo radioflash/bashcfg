@@ -132,11 +132,9 @@ then
   export ACLOCAL_PATH
 fi
 
-INITIAL_DIR=`cygpath "$INITIAL_DIR"`
-
 if [ -n "$INITIAL_DIR" ]
 then
-  cd "$INITIAL_DIR"
+  cd "`cygpath "$INITIAL_DIR"`"
 fi
 
 export PATH MANPATH INFOPATH PKG_CONFIG_PATH USER TMP TEMP PRINTER HOSTNAME PS1 SHELL tmp temp
