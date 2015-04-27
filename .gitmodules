@@ -1,6 +1,3 @@
 [submodule "bashmarks"]
 	path = bashmarks
 	url = https://github.com/huyng/bashmarks.git
-[submodule "bash-prompt"]
-	path = bash-prompt
-	url = https://github.com/twolfson/sexy-bash-prompt.git
